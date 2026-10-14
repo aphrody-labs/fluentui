@@ -1,6 +1,6 @@
 // @ts-check
 
-const path = require('path');
+const path = require('node:path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { TsconfigPathsPlugin } = require('tsconfig-paths-webpack-plugin');
 const { getMonacoTypeScriptVersion } = require('./tools/collect-typings');

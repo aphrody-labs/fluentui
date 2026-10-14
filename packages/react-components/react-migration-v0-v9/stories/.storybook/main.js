@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('node:path');
 const { registerTsPaths } = require('@fluentui/scripts-storybook');
 
 const rootMain = require('../../../../../.storybook/main');

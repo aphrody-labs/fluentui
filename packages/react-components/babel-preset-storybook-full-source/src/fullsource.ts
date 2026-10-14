@@ -1,7 +1,7 @@
 import * as Babel from '@babel/core';
 import * as prettier from 'prettier';
-import * as fs from 'fs';
-import * as nodePath from 'path';
+import * as fs from 'node:fs';
+import * as nodePath from 'node:path';
 
 import { modifyImportsPlugin } from './modifyImports';
 import { removeStorybookParameters } from './removeStorybookParameters';

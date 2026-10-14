@@ -1,4 +1,4 @@
-import * as path from 'path';
+import * as path from 'node:path';
 import pluginTester from 'babel-plugin-tester';
 import { fullSourcePlugin as plugin, PLUGIN_NAME } from './fullsource';
 

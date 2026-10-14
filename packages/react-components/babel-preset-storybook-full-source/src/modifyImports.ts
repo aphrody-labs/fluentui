@@ -1,6 +1,6 @@
 import * as Babel from '@babel/core';
 import * as pkgUp from 'pkg-up';
-import * as fs from 'fs';
+import * as fs from 'node:fs';
 import { BabelPluginOptions } from './types';
 
 interface PluginState extends Babel.PluginPass {

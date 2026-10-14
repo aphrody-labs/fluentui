@@ -1,4 +1,4 @@
-import * as path from 'path';
+import * as path from 'node:path';
 import { removeStorybookParameters as plugin, PLUGIN_NAME } from './removeStorybookParameters';
 import pluginTester from 'babel-plugin-tester';
 

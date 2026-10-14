@@ -1,5 +1,5 @@
 import pluginTester, { prettierFormatter } from 'babel-plugin-tester';
-import * as path from 'path';
+import * as path from 'node:path';
 
 import { transformPlugin } from './transformPlugin';
 

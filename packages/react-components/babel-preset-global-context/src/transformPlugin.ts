@@ -3,8 +3,8 @@ import { types } from '@babel/core';
 import { declare } from '@babel/helper-plugin-utils';
 import hash from '@emotion/hash';
 import * as findUp from 'find-up';
-import { dirname, relative } from 'path';
-import { readFileSync } from 'fs';
+import { dirname, relative } from 'node:path';
+import { readFileSync } from 'node:fs';
 import {
   CONTEXT_SELECTOR_PACKAGE,
   CREATE_CONTEXT_CALL,

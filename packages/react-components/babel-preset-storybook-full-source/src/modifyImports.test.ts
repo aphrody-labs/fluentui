@@ -1,4 +1,4 @@
-import * as path from 'path';
+import * as path from 'node:path';
 import { modifyImportsPlugin as plugin, PLUGIN_NAME } from './modifyImports';
 import pluginTester from 'babel-plugin-tester';
 
